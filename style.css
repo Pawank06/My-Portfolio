@@ -246,14 +246,15 @@ body{
     position: absolute;
     width: 380px;
     height: 380px;
-    background: #0c1022;
+    background: linear-gradient(#f06, #3cf);
     border-radius: 50%;
+    filter: blur(10px);
 }
 
 .glowing-circle span{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     background: linear-gradient(#f06, #3cf);
     border-radius: 50%;
     animation: circleRotate 5s linear infinite;
@@ -274,6 +275,7 @@ body{
 
 .image img{
     position: absolute;
+    width: 400px;
     top: 0px;
     left: 50%;
     transform: translateX(-50%);
